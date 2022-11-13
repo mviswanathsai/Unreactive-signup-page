@@ -1,0 +1,103 @@
+<%- include('partials/header') %>
+
+<header>
+  <h1>Securiti.</h1>
+</header>
+
+
+<div class="block height-100">
+
+
+</div>
+
+<div class="parent">
+  <div class="child left">
+    <div class="container">
+      <form class="" action="index.html" method="post">
+        <div class="login height-100">
+          <div class="hidden">
+            <div class="login-field grid-col-span-2">
+              <h1>Sign up</h1>
+            </div>
+            <div class="login-field">
+              <input type="text" name="firstname" required="required" class="width-100" autocomplete="off"><span class="input-field">First name</span>
+            </div>
+            <div class="login-field">
+              <input type="text" name="lasttname" required="required" class="width-100" autocomplete="off"><span class="input-field">Last name</span>
+            </div>
+            <div class="login-field grid-col-span-2">
+              <input type="email" class="width-100" required="required" name="username" autocomplete="off"><span class="input-field">Email</span>
+            </div>
+            <div class="login-field grid-col-span-2">
+              <input type="password" class="width-100" required="required" name="password" autocomplete="off"><span class="input-field">Password</span>
+            </div>
+            <div class="login-field grid-col-span-2">
+              <button type="submit" class="su-btn button width-100" name="button">Sign up</button>
+            </div>
+
+          </div>
+
+
+        </div>
+
+            <svg xmlns="http://www.w3.org/2000/svg"  height="500" width="500" class="svg-triangle left">
+              <polygon points="0,0 500,0 250,500" style="stroke-width:1.5;" />
+            </svg>
+    </div>
+
+
+    </form>
+
+    <!-- <svg class="svg-circle left" height="250" width="250">
+    <circle  cx="25" cy="25" r="175" stroke="white" stroke-width="1" fill="none" />
+  </svg> -->
+
+  </div>
+
+
+  <h1 class="welcome">Welcome, Chief.
+  <a href="/signout" class="logout">Logout</a></h1>
+
+
+
+  <div class="child right hidden">
+    <div class="container">
+      <div class="social height-100">
+        <div class="hidden">
+          <div class="social-login grid-col-span-2">
+            <a href="/auth/google" class="s-btn button google-plus"> <span>Signup with Google</span> <i class="fa fa-google-plus"></i> </a>
+          </div>
+          <div class="social-login grid-col-span-2">
+            <a href="/auth/facebook" class="s-btn button facebook"> <span>Signup with Facebook</span> <i class="fa fa-facebook"></i> </a>
+          </div>
+          <div class="social-login grid-col-span-2">
+            <a href="/auth/github" class="s-btn button github"> <span>Signup with GitHub</span> <i class="fa fa-github"></i> </a>
+          </div>
+
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <!-- <svg class="svg-circle" height="404" width="404">
+    <circle  cx="350" cy="350" r="300" stroke="white" stroke-width="1" fill="none" />
+  </svg> -->
+  <svg xmlns="http://www.w3.org/2000/svg" height="700" width="700" class="svg-triangle right">
+    <polygon points="700,700 700,0 350,700" style="stroke-width:1.5;"   />
+  </svg>
+
+
+
+  </div>
+
+</div>
+
+
+
+
+
+
+<%- include('partials/footer') %>
